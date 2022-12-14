@@ -5,14 +5,8 @@ body{
     padding: 2px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-header,
-footer{
+header{
 text-align: center;
-background-color: bisque;
-}
-p{
-    text-align: justify;
-    text-indent: 8ch;
 }
 h2{
     color: crimson;
@@ -20,6 +14,10 @@ h2{
     text-decoration-line: underline;
     text-indent: 8ch;
     text-align: left;
+
+}
+h2::first-letter{
+    color:tomato ;
 }
 h3,
 footer{
@@ -28,9 +26,30 @@ footer{
     text-decoration-line: underline;
     text-indent: 8ch;
 text-align: center;
-
+}
+p::first-letter{
+    color: blueviolet;
+    text-align: justify;
+text-indent: 8ch;
 }
     main{
         text-align: right;
         text-align: justify;
     }
+p{
+text-align: justify;
+text-indent: 8ch;
+}
+ p::first-letter{
+font-size: 120%;
+color: aqua;
+text-decoration-line:underline;
+} 
+.letter1{
+    color: black; 
+    text-decoration-line: underline;
+    font-size: 120%;
+}
+section:hover{
+    background-color: antiquewhite;
+}
